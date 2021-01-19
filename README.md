@@ -280,7 +280,7 @@ Promise.all([p1, p2, p3, p4, p5])
   });
 ```
 
-**10. Write a program (javascript) to check if the given date of birth falls under leap year or not**
+**10. Write a program (javascript) to check if the given date of birth falls under leap year or not.**
 
 ```javascript
 function isLeapYear(date) {
@@ -293,9 +293,18 @@ function isLeapYear(date) {
     console.log("Not a Leap Year");
   }
 }
+```
 
-isLeapYear("01/24/2004"); // Leap Year
-isLeapYear("10/12/1990"); // Not a Leap Year
+**11. Given an object (`person`), Assign the value of `name` property to a new variable (`myName`) using ES6 destructuring.**
+
+```javascript
+let person = {
+  name: "John",
+  age: 26,
+};
+
+let { name: myName } = person;
+console.log("myName", myName);
 ```
 
 ## React.js

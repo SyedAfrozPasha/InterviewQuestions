@@ -549,7 +549,7 @@ _Solution:_ As the `this.setState` is an asynchronous call. So the output at thi
 
 **2. Build a clone of google's search page (https://www.google.com/) using react.**
 
-![Google Search Page](https://github.com/SyedAfrozPasha/InterviewQuestions/images/GoogleReact.PNG "Google Search Page")
+![Google Search Page](https://github.com/SyedAfrozPasha/InterviewQuestions/blob/main/Images/GoogleReact.PNG "Google Search Page")
 
 ## Node.js
 

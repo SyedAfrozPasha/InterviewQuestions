@@ -522,6 +522,10 @@ Refs can be used in the following cases
 
 - [React Hooks](https://reactjs.org/docs/hooks-reference.html)
 
+**28. What happen if we call `setState` method inside `render` function?**
+
+- `render()` calling `setState()` here makes your component a contender for producing infinite loops. `render` should always remain pure. It's a very bad practice to do side-effecty things in there, and calling `setState` is a big red flag.
+
 ### React.js Coding Questions:
 
 **1. What will be the output of `console.log(this.state.data)` in the following code?**

@@ -280,7 +280,7 @@ Promise.all([p1, p2, p3, p4, p5])
   });
 ```
 
-**10. Write a program to check if the given date of birth falls under leap year or not.**
+**10. Write a program (javascript) to check if the given date of birth falls under leap year or not**
 
 ```javascript
 function isLeapYear(date) {

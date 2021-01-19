@@ -518,13 +518,19 @@ Refs can be used in the following cases
 - [Redux](https://redux.js.org)
 - [MobX](https://mobx.js.org/getting-started.html)
 
-**28. Explain React Hooks and what's the use of `useEffect` hook?**
+**28. Explain React Hooks and what's the use of `useEffect` and `useMemo` hooks?**
 
 - [React Hooks](https://reactjs.org/docs/hooks-reference.html)
 
-**28. What happen if we call `setState` method inside `render` function?**
+**29. What happen if we call `setState` method inside `render` function?**
 
 - `render()` calling `setState()` here makes your component a contender for producing infinite loops. `render` should always remain pure. It's a very bad practice to do side-effecty things in there, and calling `setState` is a big red flag.
+
+**30. What is Error Boundary in react?**
+
+- Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
+
+- [Error Boundary](https://reactjs.org/docs/error-boundaries.html#introducing-error-boundaries)
 
 ### React.js Coding Questions:
 
